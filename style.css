@@ -41,7 +41,7 @@ form {
 .double-input input, 
 .large-input input {
   padding: 6px 8px;
-  background-color: #f5f6f7;
+  background-color: #e6e9e9;
   border: 1px solid #ccd0d5;
   border-radius: 5px;
   outline: none;
@@ -68,6 +68,18 @@ select {
   border-radius: 5px;
   padding: 8px;
   margin-right: 10px;
+}
+
+
+.gender-selection select {
+  width: 100%;
+  margin: 8px 0;
+}
+
+.gender-selection p {
+  color: #606770;
+  margin: 0 0 8px 0;
+  font-size: 0.7rem;
 }
 
 .form-submit {
